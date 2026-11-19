@@ -362,6 +362,11 @@ footer p {
 }
 
 .reveal {
+  opacity: 1;
+  transform: none;
+}
+
+.js .reveal {
   opacity: 0;
   transform: translateY(20px);
   transition:
@@ -373,7 +378,7 @@ footer p {
   transition-delay: 120ms;
 }
 
-.reveal.is-visible {
+.js .reveal.is-visible {
   opacity: 1;
   transform: translateY(0);
 }
